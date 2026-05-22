@@ -4,7 +4,7 @@ import AnimatedExample from "./components/testing";
 function App() {
   return (
     // <Routing />
-    <BasicExample/>
+    <AnimatedExample/>
 
   )
 }
