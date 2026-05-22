@@ -1,9 +1,11 @@
 import React from "react";
 import Routing from "./Routing/routing";
-function App(){
-  return(
-     <Routing/>
-   
+// import BasicExample from "./components/testing";
+function App() {
+  return (
+    <Routing />
+    // <BasicExample/>
+
   )
 }
 export default App;

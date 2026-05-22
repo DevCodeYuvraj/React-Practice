@@ -7,11 +7,16 @@ import UseStateCounterpage from "../pages/UseStateCounter";
 import UseReducerCounterPage from "../pages/UseReducerCounter";
 import TodoList from "../pages/TodoList";
 import Accordion from 'react-bootstrap/Accordion';
-import { Badge } from "react-bootstrap";
+import { Badge, ListGroup } from "react-bootstrap";
 import PillExample from "../components/Badge";
 import Breadcrumbtask from "../components/Breadcrumb";
 import BreadcrumbPage from "../pages/Breadcrumbs";
 import ButtonPage from "../pages/ButtonPage";
+import RbCardsPage from "../pages/RbCards";
+import ShapeExample from "../components/AvatarGroup";
+import Avatarpage from "../pages/AvatarPage";
+import ListGroupPage from "../pages/ListGroupPage";
+import SpinnerPage from "../pages/SpinnerPage";
 function Routing() {
   return (<section className="container d-flex col " >
     <BrowserRouter>
@@ -38,9 +43,10 @@ function Routing() {
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px",textDecoration: "none" }} to="/PillExample">Badge</NavLink>
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Breadcrumbs">Breadcrumb</NavLink>
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Buttons">Button</NavLink>
-                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/UseStateCounter">UseState Counter</NavLink>
-                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/UseReducerCounter">UseReducer Counter</NavLink>
-                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Todolist">Todo list</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Cards">shoppingCards</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Avatar Page">Avatar</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/List Group">List Group</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Spinner">Spinner</NavLink>
               </nav>
             </Accordion.Body>
           </Accordion.Item>
@@ -54,9 +60,10 @@ function Routing() {
             <Route path="/PillExample" element={<PillExample/>} />
             <Route path="/Breadcrumbs" element={<BreadcrumbPage />} />
             <Route path="/buttons" element={<ButtonPage />} />
-            <Route path="/UseStateCounter" element={<UseStateCounterpage />} />
-            <Route path="/UseReducerCounter" element={<UseReducerCounterPage />} />
-            <Route path="/TodoList" element={<TodoList />} />
+            <Route path="/Cards" element={<RbCardsPage />} />
+            <Route path="/Avatar Page" element={<Avatarpage/>} />
+            <Route path="/List Group" element={<ListGroupPage/>} />
+            <Route path="/Spinner" element={<SpinnerPage/>} />
           </Routes></div>
     </BrowserRouter>
   </section>
