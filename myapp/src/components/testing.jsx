@@ -1,7 +1,6 @@
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import {useState} from 'react';
 import { Card } from 'react-bootstrap';
-
 function AnimatedExample() {
 const [AddProgress,setAddProgress]=useState(5);
 const increment5 = () =>{
