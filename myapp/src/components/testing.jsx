@@ -31,10 +31,11 @@ const increment5 = () =>{
                             Boult Newly Launched Flex On Ear Bluetooth Headphones with 80H Playtime, 40mm Bass Drivers, Zen™ ENC Mic, Type-C Fast Charging, Bluetooth 5.4, AUX Option, 60ms Low Latency, IPX5 (Jet Black)
                         </Card.Text>
                         <Stack className="price" direction='horizontal' gap={2}>₹1,399 <div className="previousprice" ><s>MRP: ₹3,999</s></div></Stack>
+                        <ProgressBar animated variant="danger"  now={AddProgress} /> 
                         <hr />
                         <div className='buttonbackground'>
                             <Stack direction="horizontal" >
-                                <ProgressBar animated variant="danger"  now={AddProgress} />  
+                                 
                                 <Button className="cartbutton" >Add To Cart</Button>
                                 <Button className="buybutton" variant="primary">Buy Now</Button>
                             </Stack>
