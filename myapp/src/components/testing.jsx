@@ -24,7 +24,6 @@ const increment5 = () =>{
 
   <Card className='cardstyle'>
                     <Card.Title className='cardtitle'>Bluetooth Headphones</Card.Title>
-                    <Card.Img className='cardimg' variant="top" src={cardimage1} />
                     <Card.Body className='cardbody'>
 
                         <Card.Text className='cardtext'>
