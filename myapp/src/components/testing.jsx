@@ -24,7 +24,7 @@ const increment5 = () =>{
   <br />
   <ProgressBar animated variant="danger"  now={AddProgress} />      
   <Card className='cardstyle'>
-                    <Card.Title className='cardtitle'><h1>Bootstrap dashboard application</h1> </Card.Title>
+                    <Card.Title className='cardtitle'><h2>Bootstrap dashboard application</h2> </Card.Title>
                     <Card.Body className='cardbody'>
 
                         <Card.Text className='cardtext'>
