@@ -21,7 +21,7 @@ const increment5 = () =>{
 <div><h5>completed{AddProgress}%</h5></div>
   <ProgressBar className='bar1' animated now={AddProgress} label={`${AddProgress}%`} /> 
   <br />
-  <ProgressBar animated variant="danger"  now={AddProgress} />
+  <ProgressBar animated variant="danger"  now={AddProgress} />      
   <Card className='cardstyle'>
                     <Card.Title className='cardtitle'>Bluetooth Headphones</Card.Title>
                     <Card.Body className='cardbody'>
@@ -43,5 +43,3 @@ const increment5 = () =>{
   </>
   ) 
 };
-
-export default AnimatedExample;
