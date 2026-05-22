@@ -34,7 +34,7 @@ const increment5 = () =>{
                         <hr />
                         <div className='buttonbackground'>
                             <Stack direction="horizontal" >
-                                <ProgressBar animated variant="primary"  now={AddProgress} />  
+                                <ProgressBar animated variant="danger"  now={AddProgress} />  
                                 <Button className="cartbutton" >Add To Cart</Button>
                                 <Button className="buybutton" variant="primary">Buy Now</Button>
                             </Stack>
