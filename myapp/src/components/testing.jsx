@@ -25,9 +25,9 @@ const increment5 = () =>{
   <ProgressBar animated variant="danger"  now={AddProgress} />      
   <Card className='cardstyle'>
                     <Card.Title className='cardtitle'><h2>Bootstrap dashboard application</h2> </Card.Title>
-                    <Card.Text className='cardtext'>
-                        <h5 className='previousprice d-flex row textStart'  >Web Development</h5></Card.Text>
-                    <Card.Body className='cardbody'>
+                    
+                        <h5 className='previousprice d-flex row textStart'  >Web Development</h5>
+                        <Card.Body className='cardbody'>
 
                         
                         <Stack className="price" direction='horizontal' gap={2}>₹1,399 <div className="previousprice" ><s>MRP: ₹3,999</s></div></Stack>
