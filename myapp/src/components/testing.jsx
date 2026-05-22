@@ -18,6 +18,7 @@ const increment5 = () =>{
 <button className="btn btn-success mx-2"onClick={decrement5} > Progress -5%</button>
 <div><h5>completed{AddProgress}%</h5></div>
   <ProgressBar animated now={AddProgress} label={`${AddProgress}%`} /> 
+  <br />
   <ProgressBar animated variant="danger"  now={AddProgress} />
   </>
   ) 
