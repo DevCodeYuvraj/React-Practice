@@ -2,7 +2,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import {useState} from 'react';
 import { Card } from 'react-bootstrap';
 import Stack from 'react-bootstrap';
-function AnimatedExample() {
+export default function AnimatedExample() {
 const [AddProgress,setAddProgress]=useState(5);
 const increment5 = () =>{
         if (AddProgress <= 95) setAddProgress(AddProgress + 5);
