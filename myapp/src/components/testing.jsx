@@ -26,7 +26,7 @@ const increment5 = () =>{
   <Card className='cardstyle'>
                     <Card.Title className='cardtitle'><h2>Bootstrap dashboard application</h2> </Card.Title>
                     <Card.Text className='cardtext'>
-                        <h4 Text-secondary >Web Development</h4></Card.Text>
+                        <h4 secondary >Web Development</h4></Card.Text>
                     <Card.Body className='cardbody'>
 
                         
