@@ -12,9 +12,7 @@ const increment5 = () =>{
     };
 
   return(
-    
   <>
-  
   <button className="btn btn-success mx-2"onClick={increment5} > Progress +5%</button>
 
 <button className="btn btn-success mx-2"onClick={decrement5} > Progress -5%</button>
