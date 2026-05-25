@@ -300,4 +300,6 @@ font-size: small;
 /* When accordion is open */
 .custom-accordion .accordion-button:not(.collapsed)::after {
   content: "−";
+  color: blue;
+  background-color: white;
 }
