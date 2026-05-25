@@ -28,7 +28,10 @@
     font-size: 16px;
   }
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -278,4 +281,10 @@ font-size: small;
 }
 .bar1{
   height: 30px;
+}
+.react-image{
+  width: 800px;
+  border-radius:10px ;
+  border: 5px solid rgba(128, 128, 128, 0.434);
+  height: auto;
 }

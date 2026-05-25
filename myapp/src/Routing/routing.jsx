@@ -17,6 +17,10 @@ import ShapeExample from "../components/AvatarGroup";
 import Avatarpage from "../pages/AvatarPage";
 import ListGroupPage from "../pages/ListGroupPage";
 import SpinnerPage from "../pages/SpinnerPage";
+import ProgressPage from "../pages/ProgressPage";
+import PaginationPage from "../pages/PaginationPage";
+import FigurePage from "../pages/FigurePage";
+import AccordianPage from "../pages/AccordianPage";
 function Routing() {
   return (<section className="container d-flex col " >
     <BrowserRouter>
@@ -47,6 +51,17 @@ function Routing() {
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Avatar Page">Avatar</NavLink>
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/List Group">List Group</NavLink>
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Spinner">Spinner</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/ProgressBar">Progress</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Pagination">Pagination</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Figure">Figure</NavLink>
+              </nav>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="2">
+            <Accordion.Header>Assignment 3  </Accordion.Header>
+            <Accordion.Body>
+              <nav className="col">
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Accordian">Accordian</NavLink>
               </nav>
             </Accordion.Body>
           </Accordion.Item>
@@ -64,6 +79,11 @@ function Routing() {
             <Route path="/Avatar Page" element={<Avatarpage/>} />
             <Route path="/List Group" element={<ListGroupPage/>} />
             <Route path="/Spinner" element={<SpinnerPage/>} />
+            <Route path="/ProgressBar" element={<ProgressPage/>} />
+            <Route path="/Pagination" element={<PaginationPage/>} />
+            <Route path="/Figure" element={<FigurePage/>} />
+            <Route path="/Accordian" element={<AccordianPage/>} />
+
           </Routes></div>
     </BrowserRouter>
   </section>
