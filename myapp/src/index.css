@@ -301,6 +301,6 @@ font-size: small;
 .custom-accordion .accordion-button:not(.collapsed)::after {
   content: "−";
 }
-.custom-color .accordion-text:not(.collapsed)::after{
+.custom-color text:not(.collapsed)::after{
   color:red;
 }
