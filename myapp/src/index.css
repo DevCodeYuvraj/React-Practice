@@ -288,3 +288,16 @@ font-size: small;
   border: 5px solid rgba(128, 128, 128, 0.434);
   height: auto;
 }
+/* Remove default Bootstrap arrow */
+.custom-accordion .accordion-button::after {
+  background-image: none !important;
+  content: "+";
+  font-size: 24px;
+  font-weight: bold;
+  transform: none !important;
+}
+
+/* When accordion is open */
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  content: "−";
+}
