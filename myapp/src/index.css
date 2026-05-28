@@ -325,89 +325,103 @@ font-size: small;
 .carousel-custom-container {
   max-width: 900px;
 }
+/* Container & Image Styling */
+.carousel-assignment-container {
+  max-width: 950px;
+  background: transparent;
+}
 
-/* Match the rounded corners of the image container in the document */
-.custom-carousel {
-  border-radius: 24px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+.assignment-carousel {
   position: relative;
+  overflow: visible; /* Allows navigation elements to sit cleanly */
 }
 
-.carousel-img {
+.assignment-img {
+  border-radius: 12px;
   object-fit: cover;
-  height: 450px; /* Adjust height based on your banner dimensions */
+  height: 380px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Align text to the bottom right as seen in the slide sample */
-.custom-caption {
-  right: 5%;
+/* Document Caption Alignment (Bottom Left Stacked) */
+.assignment-carousel .assignment-caption {
+  position: absolute;
+  left: 5%;
   bottom: 10%;
-  text-align: right;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  right: auto;
+  text-align: left;
+  padding: 0;
+  color: #333; /* Switch to dark text matching standard slide document assets */
+  text-shadow: none;
 }
 
-.custom-caption h3 {
-  font-size: 2rem;
-  font-weight: bold;
+.assignment-caption h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
 }
 
-/* Custom indicator dots positioning */
-.carousel-indicators {
+.assignment-caption p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Aligning indicators to the right edge */
+.assignment-carousel .carousel-indicators {
   justify-content: flex-end;
   right: 5%;
-  margin-right: 0;
   bottom: 25px;
+  margin: 0;
 }
 
-.carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
+.assignment-carousel .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.5;
+  background-color: #000; /* Dark indicator dots matching layout rules */
+  border: none;
+  opacity: 0.25;
+  margin: 0 4px;
 }
 
-.carousel-indicators .active {
-  opacity: 1;
+.assignment-carousel .carousel-indicators .active {
+  opacity: 0.8;
+  background-color: #000;
 }
 
-/* Styling the Next / Prev Text buttons at the bottom right corner */
-.carousel-control-prev,
-.carousel-control-next {
+/* Text Controls Styles for Next/Prev */
+.assignment-carousel .carousel-control-prev,
+.assignment-carousel .carousel-control-next {
   top: auto;
-  bottom: 20px;
+  bottom: -40px; /* Positions navigation below the image border line */
   width: auto;
   height: auto;
   opacity: 1;
-  background-color: #007bff; /* Blue button color matching the design */
-  color: white !important;
-  padding: 6px 15px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  text-transform: none;
+  color: #222 !important;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 10px;
 }
 
-/* Position controls horizontally side-by-side on the bottom right */
-.carousel-control-prev {
+/* Position text labels explicitly on the bottom right side */
+.assignment-carousel .carousel-control-prev {
   left: auto;
   right: 90px;
-  border-radius: 4px 0 0 4px;
 }
 
-.carousel-control-next {
-  right: 25px;
-  border-radius: 0 4px 4px 0;
+.assignment-carousel .carousel-control-next {
+  left: auto;
+  right: 20px;
 }
 
-/* Hide the default Bootstrap arrow icons to use text labels exclusively */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  display: none;
+/* Hide default arrow graphic icons completely */
+.assignment-carousel .carousel-control-prev-icon,
+.assignment-carousel .carousel-control-next-icon {
+  display: none !important;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background-color: #0056b3;
-  opacity: 1;
+.assignment-carousel .carousel-control-prev:hover,
+.assignment-carousel .carousel-control-next:hover {
+  color: #0056b3 !important;
 }
