@@ -11,13 +11,13 @@ const RBCarousel = () => {
     },
     {
       id: 2,
-      image: "https://via.placeholder.com/1200x500/222/fff?text=Banner+2",
+      image: "https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg",
       title: "Second Slide",
       description: "This is the second slide description."
     },
     {
       id: 3,
-      image: "https://via.placeholder.com/1200x500/333/fff?text=Banner+3",
+      image: "https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg",
       title: "Third Slide",
       description: "This is the third slide."
     }
