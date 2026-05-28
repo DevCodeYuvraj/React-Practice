@@ -321,3 +321,93 @@ font-size: small;
 
   box-shadow: none;
 }
+/* Container adjustments */
+.carousel-custom-container {
+  max-width: 900px;
+}
+
+/* Match the rounded corners of the image container in the document */
+.custom-carousel {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.carousel-img {
+  object-fit: cover;
+  height: 450px; /* Adjust height based on your banner dimensions */
+}
+
+/* Align text to the bottom right as seen in the slide sample */
+.custom-caption {
+  right: 5%;
+  bottom: 10%;
+  text-align: right;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.custom-caption h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Custom indicator dots positioning */
+.carousel-indicators {
+  justify-content: flex-end;
+  right: 5%;
+  margin-right: 0;
+  bottom: 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+/* Styling the Next / Prev Text buttons at the bottom right corner */
+.carousel-control-prev,
+.carousel-control-next {
+  top: auto;
+  bottom: 20px;
+  width: auto;
+  height: auto;
+  opacity: 1;
+  background-color: #007bff; /* Blue button color matching the design */
+  color: white !important;
+  padding: 6px 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: none;
+}
+
+/* Position controls horizontally side-by-side on the bottom right */
+.carousel-control-prev {
+  left: auto;
+  right: 90px;
+  border-radius: 4px 0 0 4px;
+}
+
+.carousel-control-next {
+  right: 25px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Hide the default Bootstrap arrow icons to use text labels exclusively */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #0056b3;
+  opacity: 1;
+}
