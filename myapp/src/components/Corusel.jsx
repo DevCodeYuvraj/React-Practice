@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
-import banner1 from "../assets/banner1";
+import banner1 from '../assets/hongkong1081704.png';
 const RBCarousel = () => {
   // Replace these placeholders with your actual downloaded banner URLs
   const banners = [
