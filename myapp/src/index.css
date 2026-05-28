@@ -373,7 +373,8 @@ font-size: small;
 }
 
 .assignment-carousel .carousel-indicators .active {
- 
+  background-color: #0d6efd; /* Active blue dot matching the sheet design */
+  opacity: 1;
 }
 
 /* Make Next & Prev text links visible as blue capsule blocks below the frame */
