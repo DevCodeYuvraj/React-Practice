@@ -21,6 +21,7 @@ import ProgressPage from "../pages/ProgressPage";
 import PaginationPage from "../pages/PaginationPage";
 import FigurePage from "../pages/FigurePage";
 import AccordianPage from "../pages/AccordianPage";
+import RBCarousel from "../components/Corusel";
 function Routing() {
   return (<section className="container d-flex col " >
     <BrowserRouter>
@@ -62,6 +63,7 @@ function Routing() {
             <Accordion.Body>
               <nav className="col">
                 <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Accordian">Accordian</NavLink>
+                <NavLink className="d-flex col" style={{ color: "black", marginLeft: "20px", textDecoration: "none" }} to="/Carousel">Carousel</NavLink>
               </nav>
             </Accordion.Body>
           </Accordion.Item>
@@ -83,6 +85,7 @@ function Routing() {
             <Route path="/Pagination" element={<PaginationPage/>} />
             <Route path="/Figure" element={<FigurePage/>} />
             <Route path="/Accordian" element={<AccordianPage/>} />
+            <Route path="/Carousel" element={<RBCarousel/>} />
 
           </Routes></div>
     </BrowserRouter>
