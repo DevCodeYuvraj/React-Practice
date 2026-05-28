@@ -373,7 +373,7 @@ font-size: small;
 }
 
 .assignment-carousel .carousel-indicators .active {
-  background-color: #0d6efd; /* Active blue dot matching the sheet design */
+  background-color: red; /* Active blue dot matching the sheet design */
   opacity: 1;
 }
 
