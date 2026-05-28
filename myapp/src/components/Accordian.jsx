@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function AlwaysOpenExample() {
   return (
     <Accordion className="custom-accordion" defaultActiveKey={['0']} alwaysOpen >
-      <Accordion.Item className="custom-accordion" eventKey="0">
+      <Accordion.Item  eventKey="0">
         <Accordion.Header>What is the cost of an online course ? </Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
