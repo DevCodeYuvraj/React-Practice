@@ -30,7 +30,7 @@ const RBCarousel = () => {
         prevLabel="← Prev"
         className="assignment-carousel"
         fade={false}
-      >next
+      >
         {banners.map((banner) => (
           <Carousel.Item key={banner.id}>
             <img
@@ -40,7 +40,7 @@ const RBCarousel = () => {
             />
             <Carousel.Caption className="assignment-caption">
               <h3>{banner.title}</h3>
-              <p>{banner.description}</p>
+              <p>{banner.description}</p>hi
             </Carousel.Caption>
           </Carousel.Item>
         ))}
