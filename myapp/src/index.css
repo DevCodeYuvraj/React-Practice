@@ -297,9 +297,14 @@ font-size: small;
   transform: none !important;
 }
 
-/* When accordion is open */
+/* Expanded icon */
 .custom-accordion .accordion-button:not(.collapsed)::after {
   content: "−";
-   color: blue;
-  background-color: white;
+  color: blue;
+}
+
+/* Expanded heading text */
+.custom-accordion .accordion-button:not(.collapsed) {
+  color: blue !important;
+  background-color: white !important;
 }
