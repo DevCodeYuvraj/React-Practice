@@ -308,3 +308,16 @@ font-size: small;
   color: blue !important;
   background-color: white !important;
 }
+/* Keep same size in both states */
+.custom-accordion .accordion-button,
+.custom-accordion .accordion-button:not(.collapsed) {
+
+  font-size: 18px;
+  font-weight: 500;
+
+  padding: 16px 20px;
+
+  min-height: 60px;
+
+  box-shadow: none;
+}
