@@ -4,7 +4,7 @@ function AlwaysOpenExample() {
   return (
     <Accordion className="custom-accordion" defaultActiveKey={['0']} alwaysOpen >
       <Accordion.Item eventKey="0">
-        <Accordion.Header className='container col-sm '>What is the cost of an online course ? </Accordion.Header>
+        <Accordion.Header>What is the cost of an online course ? </Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
