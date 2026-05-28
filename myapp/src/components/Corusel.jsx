@@ -29,7 +29,7 @@ const RBCarousel = () => {
         nextLabel="Next →" 
         prevLabel="← Prev"
         className="assignment-carousel"
-        fade={false}
+        fade={true}
       >
         {banners.map((banner) => (
           <Carousel.Item key={banner.id}>
