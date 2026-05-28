@@ -28,7 +28,7 @@ function AlwaysOpenExample() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>How can i ask question or clear doubts ?</Accordion.Header>
+        <Accordion.Header>How can i ask question or clear doubts?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
