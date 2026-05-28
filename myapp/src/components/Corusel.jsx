@@ -5,7 +5,7 @@ const RBCarousel = () => {
   const banners = [
     {
       id: 1,
-      image: "banner1",
+      image: "https://wowslider.com/sliders/demo-44/data1/images/bridge.jpg",
       title: "First Slide",
       description: "This is the first slide description."
     },
