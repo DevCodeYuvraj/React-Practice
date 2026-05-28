@@ -425,3 +425,92 @@ font-size: small;
 .assignment-carousel .carousel-control-next:hover {
   color: #0056b3 !important;
 }
+/* Container layout constraints */
+.carousel-assignment-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Image structure matching Page 3 */
+.assignment-carousel {
+  position: relative;
+  padding-bottom: 80px; /* Leaves clean empty space at the bottom for controls */
+}
+
+.assignment-img {
+  border-radius: 20px; /* Smooth rounded corners matching the example banner */
+  object-fit: cover;
+  height: 400px;
+}
+
+/* Slide Caption centering inside the image */
+.assignment-carousel .carousel-caption {
+  bottom: 20%;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.assignment-carousel .carousel-caption h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+/* Grey/Blue Dot Indicators positioned below the image frame */
+.assignment-carousel .carousel-indicators {
+  bottom: 50px; /* Placed cleanly above the buttons */
+  margin-bottom: 0;
+}
+
+.assignment-carousel .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a0a0a0; /* Grey dots */
+  border: none;
+  opacity: 0.6;
+}
+
+.assignment-carousel .carousel-indicators .active {
+  background-color: #0d6efd; /* Active blue dot matching the image */
+  opacity: 1;
+}
+
+/* Make Next & Prev buttons visible as blue capsules at the bottom */
+.assignment-carousel .carousel-control-prev,
+.assignment-carousel .carousel-control-next {
+  top: auto;
+  bottom: 0px; /* Forces buttons completely below the image layout */
+  width: auto;
+  height: auto;
+  opacity: 1 !important; /* Overrides Bootstrap's fade opacity */
+  background-color: #0d6efd; /* Vibrant Bootstrap Blue button background */
+  color: #ffffff !important; /* Crisp white text */
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+/* Position them exactly side-by-side in the center bottom */
+.assignment-carousel .carousel-control-prev {
+  left: calc(50% - 75px); /* Perfectly aligns left button slightly left of center */
+  border-radius: 4px 0 0 4px;
+}
+
+.assignment-carousel .carousel-control-next {
+  right: calc(50% - 75px); /* Perfectly aligns right button slightly right of center */
+  border-radius: 0 4px 4px 0;
+}
+
+/* Cleanly hide the default arrow graphic chevron brackets */
+.assignment-carousel .carousel-control-prev-icon,
+.assignment-carousel .carousel-control-next-icon {
+  display: none !important;
+}
+
+/* Button Hover State effect */
+.assignment-carousel .carousel-control-prev:hover,
+.assignment-carousel .carousel-control-next:hover {
+  background-color: #0b5ed7;
+}
