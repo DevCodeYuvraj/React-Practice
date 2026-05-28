@@ -85,7 +85,7 @@ function Routing() {
             <Route path="/Pagination" element={<PaginationPage/>} />
             <Route path="/Figure" element={<FigurePage/>} />
             <Route path="/Accordian" element={<AccordianPage/>} />
-            <Route path="/Carousel" element={<RBCarousel/>} />
+            <Route path="/Carousel" element={<CarouselPage/>} />
 
           </Routes></div>
     </BrowserRouter>
