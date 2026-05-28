@@ -21,7 +21,6 @@ import ProgressPage from "../pages/ProgressPage";
 import PaginationPage from "../pages/PaginationPage";
 import FigurePage from "../pages/FigurePage";
 import AccordianPage from "../pages/AccordianPage";
-import RBCarousel from "../components/Corusel";
 import CarouselPage from "../pages/CorouselPage";
 function Routing() {
   return (<section className="container d-flex col " >
