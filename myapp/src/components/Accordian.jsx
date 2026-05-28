@@ -16,7 +16,7 @@ function AlwaysOpenExample() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>What are the technology requirement</Accordion.Header>
+        <Accordion.Header>What are the technology requirement?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -28,7 +28,7 @@ function AlwaysOpenExample() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
-        <Accordion.Header>How can i ask question or clear doubts</Accordion.Header>
+        <Accordion.Header>How can i ask question or clear doubts ?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -40,7 +40,7 @@ function AlwaysOpenExample() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
-        <Accordion.Header>Do i need to visit any physical location</Accordion.Header>
+        <Accordion.Header>Do i need to visit any physical location?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
