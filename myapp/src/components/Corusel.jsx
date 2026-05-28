@@ -40,7 +40,7 @@ const RBCarousel = () => {
             />
             <Carousel.Caption className="assignment-caption">
               <h3>{banner.title}</h3>
-              <p>{banner.description}</p>hi
+              <p>{banner.description}</p>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
