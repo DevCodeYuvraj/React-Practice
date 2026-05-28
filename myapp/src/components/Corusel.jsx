@@ -1,11 +1,12 @@
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
+import banner1 from "../assets/banner1"
 const RBCarousel = () => {
   // Replace these placeholders with your actual downloaded banner URLs
   const banners = [
     {
       id: 1,
-      image: "https://via.placeholder.com/1200x500/111/fff?text=Banner+1",
+      image: "banner1",
       title: "First Slide",
       description: "This is the first slide description."
     },
