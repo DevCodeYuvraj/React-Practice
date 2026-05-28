@@ -4,19 +4,19 @@ const RBCarousel = () => {
   const banners = [
     {
       id: 1,
-      image: "https://via.placeholder.com/1000x400/eaeaea/333?text=Banner+1",
+      image: "https://wowslider.com/sliders/demo-44/data1/images/bridge.jpg",
       title: "First Slide",
       description: "This is the first slide description."
     },
     {
       id: 2,
-      image: "https://via.placeholder.com/1000x400/eaeaea/333?text=Banner+2",
+      image: "https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg",
       title: "Second Slide",
       description: "This is the second slide description."
     },
     {
       id: 3,
-      image: "https://via.placeholder.com/1000x400/eaeaea/333?text=Banner+3",
+      image: "https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg",
       title: "Third Slide",
       description: "This is the third slide."
     }
