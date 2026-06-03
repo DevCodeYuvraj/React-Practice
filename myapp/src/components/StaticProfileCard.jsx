@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Avatar } from '../assets/avatar.jpg'
+import { Avatar } from '.avatar'
 import "../index.css"
 function StaticProfile() {
   return (
