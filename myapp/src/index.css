@@ -146,6 +146,7 @@ img {
 }
 
 .description {
+  width: 300px;
   font-size: medium;
   display: inline-block;
   line-height: 20px;
