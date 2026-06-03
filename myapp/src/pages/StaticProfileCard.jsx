@@ -1,18 +1,20 @@
-//static profile card :-
-import { Header } from "../components/Header";
-import { Footer } from '../components/Footer'
-import StaticProfile from "../components/StaticProfileCard"
-// static profile card :-
-function staticProfileCardPage() {
-    return (
-       
-            <section id="center">
-                <div className="contaniner">
-                    <Header />
-                    <StaticProfile />
-                    <Footer />
-                </div>
-            </section>)
+import { useState } from 'react'
+import { Avatar } from './Avatar'
+import "../index.css"
+function StaticProfile() {
+  return (
+    <>
+          <div className="card">
+            <div className="profile">
+              <Avatar />
+              <div className="user-name">John Doe</div>
+              <div className="role">Frontend Development Student</div>
+              <div className="description">I enjoy building clean and responsive user interfaces using React.</div>
+            </div>
+          </div>
+          
+    </>
+  )
 }
 
-export default staticProfileCardPage;
+export default StaticProfile

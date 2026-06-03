@@ -22,6 +22,7 @@ import PaginationPage from "../pages/PaginationPage";
 import FigurePage from "../pages/FigurePage";
 import AccordianPage from "../pages/AccordianPage";
 import CarouselPage from "../pages/CorouselPage";
+import TodoListPage from "../pages/TodoList";
 function Routing() {
   return (<section className="container d-flex col " >
     <BrowserRouter>
@@ -74,6 +75,9 @@ function Routing() {
             <Route path="/" element={<Home/>} />
             <Route path="/StaticProfile" element={<StaticProfileCardPage />} />
             <Route path="/DynamicProfile" element={<DynamicProfileCardPage />} />
+            <Route path="/UseStateCounter" element={<UseStateCounterpage />} />
+            <Route path="/UseReducerCounter" element={<UseReducerCounterPage />} />
+            <Route path="/Todolist" element={<TodoListPage/>} />
             <Route path="/PillExample" element={<PillExample/>} />
             <Route path="/Breadcrumbs" element={<BreadcrumbPage />} />
             <Route path="/buttons" element={<ButtonPage />} />
