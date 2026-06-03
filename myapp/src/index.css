@@ -118,6 +118,7 @@
 }
 
 .role {
+  width: 200px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: rgb(1, 24, 80);
