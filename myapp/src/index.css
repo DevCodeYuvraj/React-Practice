@@ -86,7 +86,7 @@
   border-radius: 5%;
   box-shadow: 0.5px 1px 20px 2px rgb(187, 187, 187);
   width: 20rem;
-  height: 350px;
+  height: auto;
 }
 
 .cards {
